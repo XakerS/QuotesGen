@@ -1,2 +1,2 @@
-# QuotesGen
-A pebble app that gives you Quotes
+# QuotesGen (Генератор цитат)
+Приложение для смарт-часов pebble
