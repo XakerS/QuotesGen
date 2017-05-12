@@ -37,7 +37,7 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "QuotesGen",
+    "shortName": "Генератор цитат",
     "targetPlatforms": [
         "aplite",
         "basalt"
