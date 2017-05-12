@@ -16,7 +16,7 @@ var shufsplash = new UI.Window({});
 var text = new UI.Text({
   position: new vector2(0, 30),
   size: new vector2(144, 40),
-  text:'Downloading data....',
+  text:'Загрузка',
   font:'GOTHIC_28_BOLD',
   color:'white',
   textOverflow:'wrap',
@@ -50,7 +50,7 @@ ajax(
     
 
     // WINNING
-    console.log('Successfully fetched data from andruxnet-random-famous-quotes api on start! ');
+    console.log('Успешная загрузка с andruxnet-random-famous-quotes');
     
  //Extract data to inject into card
     //var author = data.quoteAuthor;
@@ -86,7 +86,7 @@ ajax(
             var shufquote = data.quote;
            
            // WINNING
-             console.log('Successfully fetched data from andruxnet-random-famous-quotes api (pressing select button)! ');
+             console.log('Успешно загружен andruxnet-random-famous-quotes (Нажмите среднюю кнопку)! ');
   
           
               //Display card with data
@@ -123,7 +123,7 @@ ajax(
             var accelquote = data.quote;
            
            // WINNING
-             console.log('Successfully fetched data from IHeartQuotes api (on tap)! ');
+             console.log('Успешно загружен IHeartQuotes (По нажатию)! ');
             
               //Display card with data
               card.show();
@@ -140,7 +140,7 @@ ajax(
   },
   
   function(error) {
-    console.log("Download failed: " + error);
+    console.log("Ошибка загрузки: " + error);
   }
 );
 
